@@ -62,7 +62,7 @@ class OneUserFragment : MvpAppCompatFragment(), OneUserView, BackButtonListener 
         vb?.apply {
             Glide.with(this.image)
                 .load(userAvatarUrl)
-                .placeholder(R.drawable.ic_launcher_foreground_2)
+                .placeholder(R.drawable.progger00_300)
                 .into(this.image)
             this.userName.text = userName
         }

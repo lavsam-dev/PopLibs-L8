@@ -11,6 +11,8 @@ import moxy.MvpAppCompatFragment
 import moxy.ktx.moxyPresenter
 import javax.inject.Inject
 
+const val GITHUB_USERS = "Github Users"
+
 class UsersFragment : MvpAppCompatFragment(), UsersView, BackButtonListener {
     companion object {
         fun newInstance() = UsersFragment().apply {
@@ -47,15 +49,7 @@ class UsersFragment : MvpAppCompatFragment(), UsersView, BackButtonListener {
             adapter = UsersRVAdapter(presenter.usersListPresenter)
             this.rvUsers.adapter = adapter
         }
-
-        vb?.image?.run {
-            Glide.with(this)
-                .load("https://news102.ru/wp-content/uploads/2020/07/july.png")
-                .placeholder(R.drawable.ic_launcher_foreground_2)
-                .into(this)
-        }
-
-
+        vb?.header?.text = GITHUB_USERS
     }
 
     @SuppressLint("NotifyDataSetChanged")
