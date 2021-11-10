@@ -1,6 +1,9 @@
-package lavsam.gb.libs.poplibs.poplibs_l8
+package lavsam.gb.libs.poplibs.poplibs_l8.mvp.presenter
 
 import com.github.terrakok.cicerone.Router
+import lavsam.gb.libs.poplibs.poplibs_l8.App
+import lavsam.gb.libs.poplibs.poplibs_l8.OneUserView
+import lavsam.gb.libs.poplibs.poplibs_l8.mvp.view.IScreens
 import moxy.MvpPresenter
 import javax.inject.Inject
 

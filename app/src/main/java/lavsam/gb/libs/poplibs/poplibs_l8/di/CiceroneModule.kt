@@ -14,6 +14,15 @@ import dagger.Component
 import dagger.Module
 import dagger.Provides
 import lavsam.gb.libs.poplibs.poplibs_l8.*
+import lavsam.gb.libs.poplibs.poplibs_l8.mvp.MainActivity
+import lavsam.gb.libs.poplibs.poplibs_l8.mvp.model.GitHub
+import lavsam.gb.libs.poplibs.poplibs_l8.mvp.model.GithubUsersRepo
+import lavsam.gb.libs.poplibs.poplibs_l8.mvp.presenter.OneUserPresenter
+import lavsam.gb.libs.poplibs.poplibs_l8.mvp.presenter.UsersPresenter
+import lavsam.gb.libs.poplibs.poplibs_l8.mvp.view.AndroidScreens
+import lavsam.gb.libs.poplibs.poplibs_l8.mvp.view.IScreens
+import lavsam.gb.libs.poplibs.poplibs_l8.mvp.view.OneUserFragment
+import lavsam.gb.libs.poplibs.poplibs_l8.mvp.view.UsersFragment
 import okhttp3.OkHttpClient
 import retrofit2.Retrofit
 import retrofit2.adapter.rxjava3.RxJava3CallAdapterFactory
@@ -135,5 +144,4 @@ interface AppComponent {
     fun inject(usersPresenter: OneUserPresenter)
     fun inject(usersFragment: UsersFragment)
     fun inject(usersFragment: OneUserFragment)
-
 }

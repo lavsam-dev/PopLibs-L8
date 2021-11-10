@@ -1,4 +1,4 @@
-package lavsam.gb.libs.poplibs.poplibs_l8
+package lavsam.gb.libs.poplibs.poplibs_l8.mvp.model
 
 import android.os.Parcelable
 import com.google.gson.annotations.SerializedName

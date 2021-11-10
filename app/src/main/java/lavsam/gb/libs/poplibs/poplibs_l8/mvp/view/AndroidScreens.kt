@@ -1,4 +1,4 @@
-package lavsam.gb.libs.poplibs.poplibs_l8
+package lavsam.gb.libs.poplibs.poplibs_l8.mvp.view
 
 import com.github.terrakok.cicerone.Screen
 import com.github.terrakok.cicerone.androidx.FragmentScreen

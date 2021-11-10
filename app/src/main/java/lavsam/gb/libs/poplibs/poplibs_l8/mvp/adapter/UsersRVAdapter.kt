@@ -1,9 +1,11 @@
-package lavsam.gb.libs.poplibs.poplibs_l8
+package lavsam.gb.libs.poplibs.poplibs_l8.mvp.adapter
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
+import lavsam.gb.libs.poplibs.poplibs_l8.mvp.view.UserItemView
 import lavsam.gb.libs.poplibs.poplibs_l8.databinding.ItemUserBinding
+import lavsam.gb.libs.poplibs.poplibs_l8.mvp.presenter.IUserListPresenter
 
 class UsersRVAdapter(val presenter: IUserListPresenter) :
     RecyclerView.Adapter<UsersRVAdapter.ViewHolder>() {

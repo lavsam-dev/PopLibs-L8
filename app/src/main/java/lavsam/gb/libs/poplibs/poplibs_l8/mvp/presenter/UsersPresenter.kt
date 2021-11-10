@@ -1,8 +1,13 @@
-package lavsam.gb.libs.poplibs.poplibs_l8
+package lavsam.gb.libs.poplibs.poplibs_l8.mvp.presenter
 
 import android.util.Log
 import com.github.terrakok.cicerone.Router
 import io.reactivex.rxjava3.android.schedulers.AndroidSchedulers
+import lavsam.gb.libs.poplibs.poplibs_l8.*
+import lavsam.gb.libs.poplibs.poplibs_l8.mvp.model.GithubUser
+import lavsam.gb.libs.poplibs.poplibs_l8.mvp.model.GithubUsersRepo
+import lavsam.gb.libs.poplibs.poplibs_l8.mvp.view.IScreens
+import lavsam.gb.libs.poplibs.poplibs_l8.mvp.view.UserItemView
 import moxy.MvpPresenter
 import javax.inject.Inject
 

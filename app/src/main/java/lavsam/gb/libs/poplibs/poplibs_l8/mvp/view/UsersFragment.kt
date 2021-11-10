@@ -1,11 +1,14 @@
-package lavsam.gb.libs.poplibs.poplibs_l8
+package lavsam.gb.libs.poplibs.poplibs_l8.mvp.view
 
 import android.annotation.SuppressLint
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.bumptech.glide.Glide
+import lavsam.gb.libs.poplibs.poplibs_l8.App
+import lavsam.gb.libs.poplibs.poplibs_l8.mvp.presenter.UsersPresenter
+import lavsam.gb.libs.poplibs.poplibs_l8.mvp.adapter.UsersRVAdapter
+import lavsam.gb.libs.poplibs.poplibs_l8.UsersView
 import lavsam.gb.libs.poplibs.poplibs_l8.databinding.FragmentUsersBinding
 import moxy.MvpAppCompatFragment
 import moxy.ktx.moxyPresenter

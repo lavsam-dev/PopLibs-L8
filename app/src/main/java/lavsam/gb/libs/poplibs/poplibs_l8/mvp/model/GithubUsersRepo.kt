@@ -1,8 +1,10 @@
-package lavsam.gb.libs.poplibs.poplibs_l8
+package lavsam.gb.libs.poplibs.poplibs_l8.mvp.model
 
 import io.reactivex.rxjava3.core.Observable
 import io.reactivex.rxjava3.schedulers.Schedulers
 import io.reactivex.rxjava3.subjects.BehaviorSubject
+import lavsam.gb.libs.poplibs.poplibs_l8.User
+import lavsam.gb.libs.poplibs.poplibs_l8.UserDao
 
 class GithubUsersRepo(
     val client: GitHub,
